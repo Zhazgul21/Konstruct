@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.container{
+    max-width: 1438px;
+    margin: 0 auto;
+}
+/* .container2{
+    max-width: 1190px;
+    margin: 0 auto;
+} */
+
+
+.logo{
+    background-image: url(img/bg.png);
+    height: 769px;
+}
+.logo_img{
+    position: relative;
+    top: 40px;
+    left: 667px;
+}
+.logo h1{
+    color: white;
+    max-width: 575px;
+    width: 100%;
+    height: 72px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    position: relative;
+    top: 368px;
+    left: 436px;
+    text-align: center;
+}
+.logo p{
+    color: white;
+    max-width: 401px;
+    width: 100%;
+    height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 21.79px;
+    font-size: 16px;
+    position: relative;
+    top: 370px;
+    left: 520.5px;
+    text-align: center;
+}
+.scroll_btn{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.7px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 550px;
+    left: 660px;
+}
+.navbar{
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    
+
+}
+.navbar_menu{
+    min-width: 630px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_menu a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#48555B;
+}
+.navbar_menu a:hover{
+    color: #00A4E5;
+}
+.nav{
+    border-bottom: 1px solid #E6E6E6;
+}
